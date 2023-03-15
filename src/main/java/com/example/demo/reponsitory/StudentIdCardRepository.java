@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.reponsitory;
 
+import com.example.demo.modelTable.StudentIdCard;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

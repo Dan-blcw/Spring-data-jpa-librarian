@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.modelTable;
 
 import jakarta.persistence.*;
 
@@ -30,12 +30,14 @@ public class StudentIdCard {
             updatable = false
     )
     private Long id;
+
     @Column(
             name = "card_number",
             nullable = false,
             length = 15
     )
     private String cardNumber;
+
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(
             name = "student_id",
@@ -46,17 +48,14 @@ public class StudentIdCard {
     )
     private Student student;
 
-    public  StudentIdCard(){}
-
+    public StudentIdCard(){}
     public StudentIdCard(String cardNumber) {
         this.cardNumber = cardNumber;
     }
-
-    public StudentIdCard(String cardNumber, Student student) {
+    public StudentIdCard(Student student, String cardNumber) {
         this.cardNumber = cardNumber;
         this.student = student;
     }
-
     public Long getId() {
         return id;
     }
