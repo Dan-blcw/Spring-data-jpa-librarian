@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.modelTable;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
@@ -10,7 +10,7 @@ public class Book {
     @Id
     @SequenceGenerator(
             name = "book_sequence",
-            sequenceName = "book_sequence0",
+            sequenceName = "book_sequence",
             allocationSize = 1
     )
     @GeneratedValue(
@@ -22,31 +22,34 @@ public class Book {
             updatable = false
     )
     private Long id;
+
     @Column(
             name = "created_at",
             nullable = false,
-            columnDefinition = "TIMESTAMP WITHOUT TIME ZONE"
+            columnDefinition = "Timetamps Without Time Zone"
     )
     private LocalDateTime createAt;
+
     @Column(
             name = "book_name",
             nullable = false
     )
     private String bookName;
+
     @ManyToOne
     @JoinColumn(
             name = "student_id",
             nullable = false,
             referencedColumnName = "id",
             foreignKey = @ForeignKey(
-                    name = "student_id"
+                    name = "student_book_fk"
             )
     )
     private Student student;
 
-    public  Book(){}
+    public Book(){}
 
-    public Book(LocalDateTime createAt, String bookName) {
+    public Book(String bookName, LocalDateTime createAt) {
         this.createAt = createAt;
         this.bookName = bookName;
     }
