@@ -4,6 +4,9 @@ import com.example.demo.modelTable.util.EnrolmentId;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
+
+@Entity(name = "Enrolment")
+@Table(name = "enrolment")
 public class Enrolment {
     @EmbeddedId
     private EnrolmentId id;
