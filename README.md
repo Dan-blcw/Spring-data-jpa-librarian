@@ -6,7 +6,7 @@
 ## Prerequisites
 - Knowledgeable about Spring JPA and Session, 
 - Knowledge of relational databases
-- JDK 8
+- JDK 19
 - Maven
 - PostgreSQL
 ## Summary chart
