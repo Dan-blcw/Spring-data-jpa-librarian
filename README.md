@@ -16,7 +16,7 @@
                                                                -* com.example.demo
                                                                      - modelTable 
                                                                           - util
-                                                                                ---- EnrolmentId.java
+                                                                                - EnrolmentId.java
                                                                              - Book.java
                                                                              - Course.java
                                                                              - Enrolment.java
@@ -25,13 +25,13 @@
                                                                      - reponsitory
                                                                              - StudentIdCardRepository.java
                                                                              - StudentRepository.java
-                                                                      - DemoApplication.java
+                                                                     - DemoApplication.java
                                                          - resources
-                                                                     -application.properties
+                                                                     - application.properties
                                                     - pom.xml
  -->
  
-![image](https://user-images.githubusercontent.com/127305381/226135433-15ec982c-4c72-41cb-b639-f5adaac13455.png)
+![image](https://user-images.githubusercontent.com/127305381/226181174-a9fd7ac5-e8f3-49b1-81f6-7cdab74f9074.png)
 
 
 ## End
