@@ -15,6 +15,7 @@
 
 #### @Repository
 ![image](https://user-images.githubusercontent.com/127305381/229305094-6aced881-21ba-4902-90fe-36caa5faf407.png)
+#### @query
 ![image](https://user-images.githubusercontent.com/127305381/229305134-800fe0ed-5728-405e-aa61-6d99e9165b74.png)
 
 ## Summary chart
