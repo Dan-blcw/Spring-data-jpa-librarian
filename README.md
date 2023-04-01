@@ -1,5 +1,5 @@
 
-# Demo Spring Data JPA - library and course management
+# Spring Data JPA - library and course management
 
 ## This is an experiment
 - describe how to use spring data jpa and some basic parts of hibernatet
