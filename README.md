@@ -17,7 +17,7 @@
 ![image](https://user-images.githubusercontent.com/127305381/229305094-6aced881-21ba-4902-90fe-36caa5faf407.png)
 #### @query
 ![image](https://user-images.githubusercontent.com/127305381/229305134-800fe0ed-5728-405e-aa61-6d99e9165b74.png)
-## Demo via command line
+### Demo via command line
 ![image](https://user-images.githubusercontent.com/127305381/229305578-8da40239-08c1-4a67-b005-f32d8811178f.png)
 
 ## Summary chart
